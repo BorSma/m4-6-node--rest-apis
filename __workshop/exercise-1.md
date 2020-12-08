@@ -13,6 +13,16 @@ Write out each endpoint, its method, and brief description of waht it should do.
 | endpoint | method | Description            |
 | -------- | ------ | ---------------------- |
 | `/test`  | `GET`  | It is a test endpoint. |
+| `/stock`  | `GET`  | Gets all stock info, so items and stock level. |
+| `/seating`  | `GET`  | Gets all seating info, which seats are occupied. |
+| `/customers`  | `GET`  | How many customers are in the shop right now. |
+| `/customer/add`  | `GET`  | Add a customer. |
+| `/customers/delete`  | `GET`  | Delete a customer. |
+| `/customers/daily`  | `GET`  | How many customers are in the shop today. |
+| `/customers/weekly`  | `GET`  | How many customers are in the shop today. |
+| `/customers/monthly`  | `GET`  | How many customers are in the shop today. |
+| `/customers/yearly`  | `GET`  | How many customers are in the shop today. |
+
 
 _This activity is more about the discussion in how to best organize data endpoints. There will not be any coding._
 
